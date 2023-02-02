@@ -11,7 +11,7 @@ def socket_init(socket_port):
     return s
 
 def main(arg):
-    parser(arg)
+    request_parser(arg)
 
 if __name__ == "__main__":
     main(sys.argv[1])
